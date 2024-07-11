@@ -325,7 +325,7 @@ export const json = {
    "description": "This section contains required information about you as a player.\n"
   }
  ],
- "completedHtml": "<h3>Thank you for completing the survey!</h3><p>Your feedback has been recorded.</p>"
+ "completedHtml": "<h3>Thank you for completing the survey!</h3><p>Your feedback has been recorded.</p>",
  "showQuestionNumbers": "off",
  "checkErrorsMode": "onValueChanged",
  "autoGrowComment": true,
