@@ -3,9 +3,10 @@ import { Model, StylesManager } from "survey-core";
 import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.css";
 
-import { json } from "../data/survey_json.js";
+import { json } from "../data/survey.js";
+import surveyTheme from "../theme.json";
 
-StylesManager.applyTheme("defaultV2");
+StylesManager.applyTheme(surveyTheme);
 
 function onValueChanged(_, options) {
   console.log("New value: " + options.value);

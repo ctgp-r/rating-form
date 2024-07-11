@@ -4,6 +4,7 @@ import "./App.css";
 import { SurveyPage } from "./pages/Survey";
 import * as Survey from "survey-core";
 import $ from "jquery";
+import surveyTheme from "./theme.json";
 
 // Import necessary SurveyJS widgets and styles
 import "bootstrap/dist/css/bootstrap.css";
