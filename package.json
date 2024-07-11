@@ -26,7 +26,7 @@
     "stop": "react-scripts stop",
     "build": "react-scripts --max_old_space_size=4096 build",
     "predeploy": "npm run build",
-    "deploy": "main -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
