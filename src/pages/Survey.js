@@ -20,7 +20,7 @@ async function onComplete(survey) {
       redirect: "follow",
 	  method: "POST",
       headers: {
-        "Content-Type": "application/json",
+        "Content-Type": "text/plain;charset=utf-8",
       },
       body: JSON.stringify(survey.data),
     });
@@ -41,7 +41,7 @@ export function SurveyPage() {
 
   return (
     <div className="container">
-	  <h1>Survey App</h1>
+	  <h1>04:18</h1>
       <Survey
         model={model}
         onComplete={onComplete}
