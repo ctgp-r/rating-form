@@ -41,7 +41,6 @@ export function SurveyPage() {
 
   return (
     <div className="container">
-	  <h1>04:39</h1>
       <Survey
         model={model}
         onComplete={onComplete}
