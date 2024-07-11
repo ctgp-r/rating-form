@@ -16,7 +16,7 @@ async function onComplete(survey) {
   console.log("Survey complete! Results: " + JSON.stringify(survey.data));
   
   try {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbzNT17RsthRuUv6Qm9n7Ym3mvt3DlS4amE-KBKrJlZ71XXqGcG1-dpPpUrb6l8mDuYylQ/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxoXo6mRqRUD5qunTOFUCYQXtQ_cv7MyBrJQOJwbmja_NoRlYCiep7qM66XLVVyKFBi0A/exec", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
