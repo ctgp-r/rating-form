@@ -293,29 +293,29 @@ export const json = {
     },
     {
      "type": "radiogroup",
-     "name": "question1",
+     "name": "gold_stars",
      "startWithNewLine": false,
      "title": "What is the most amount of Gold Stars you have ever achieved",
      "isRequired": true,
      "choices": [
       {
-       "value": "Item 1",
+       "value": "250",
        "text": "250"
       },
       {
-       "value": "Item 2",
+       "value": "200 - 249",
        "text": "200 - 249"
       },
       {
-       "value": "Item 3",
+       "value": "100 - 199",
        "text": "100 - 199"
       },
       {
-       "value": "Item 4",
+       "value": "<100",
        "text": "Less than 100"
       },
       {
-       "value": "Item 5",
+       "value": "N/I",
        "text": "Not interested in gold stars"
       }
      ]
@@ -325,6 +325,7 @@ export const json = {
    "description": "This section contains required information about you as a player.\n"
   }
  ],
+ "completedHtml": "<h3>Thank you for completing the survey!</h3><p>Your feedback has been recorded.</p>"
  "showQuestionNumbers": "off",
  "checkErrorsMode": "onValueChanged",
  "autoGrowComment": true,
