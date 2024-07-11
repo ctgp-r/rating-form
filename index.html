@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://unpkg.com/survey-core/survey.min.css">
+</head>
+<body>
+    <div id="surveyContainer"></div>
+    <script src="https://unpkg.com/survey-core/survey.min.js"></script>
+    <script>
+        const surveyJson = {
+            title: "Track Opinion Survey",
+            pages: [
+                {
+                    questions: [
+                        {
+                            type: "rating",
+                            name: "track1",
+                            title: "How do you rate Track 1?",
+                            isRequired: true
+                        },
+                        {
+                            type: "rating",
+                            name: "track2",
+                            title: "How do you rate Track 2?",
+                            isRequired: true
+                        }
+                        // Add more questions as needed
+                    ]
+                }
+            ]
+        };
+
+        const survey = new Survey.Model(surveyJson);
+        survey.onComplete.add(function (result) {
+            console.log(result.data);
+        });
+
+        Survey.StylesManager.applyTheme("default");
+        survey.render("surveyContainer");
+    </script>
+</body>
+</html>
