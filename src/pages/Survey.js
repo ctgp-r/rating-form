@@ -16,8 +16,9 @@ async function onComplete(survey) {
   console.log("Survey complete! Results: " + JSON.stringify(survey.data));
   
   try {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbzNT17RsthRuUv6Qm9n7Ym3mvt3DlS4amE-KBKrJlZ71XXqGcG1-dpPpUrb6l8mDuYylQ/exec", {
-      method: "POST",
+    const response = await fetch("https://script.google.com/macros/s/AKfycbyJ_-bhgdAHXa82tgT0t0Ao-wyfbqaS_U-G5k9Z3B3nk0EYDHi3QzGrwnjjBvPQV6PvGw/exec", {
+      redirect: "follow",
+	  method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
@@ -40,6 +41,7 @@ export function SurveyPage() {
 
   return (
     <div className="container">
+	  <h1>Survey App</h1>
       <Survey
         model={model}
         onComplete={onComplete}
