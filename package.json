@@ -1,6 +1,6 @@
 {
   "name": "surveyjs_react_quickstart",
-  "homepage": "https://ctgp-r.github.io/rating/form",
+  "homepage": "https://ctgp-r.github.io/rating-form",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
