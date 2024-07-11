@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rating-form/static/css/main.21a3bdd6.css",
+    "main.js": "/rating-form/static/js/main.e36b3a78.js",
+    "static/js/239.d1a26b59.chunk.js": "/rating-form/static/js/239.d1a26b59.chunk.js",
+    "static/js/213.c43cbe63.chunk.js": "/rating-form/static/js/213.c43cbe63.chunk.js",
+    "static/js/732.a6b30de0.chunk.js": "/rating-form/static/js/732.a6b30de0.chunk.js",
+    "static/media/glyphicons-halflings-regular.svg": "/rating-form/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/glyphicons-halflings-regular.ttf": "/rating-form/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/rating-form/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/rating-form/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/rating-form/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/logo.svg": "/rating-form/static/media/logo.2d27ead7c10f774c5306bcf3c257a728.svg",
+    "index.html": "/rating-form/index.html",
+    "main.21a3bdd6.css.map": "/rating-form/static/css/main.21a3bdd6.css.map",
+    "main.e36b3a78.js.map": "/rating-form/static/js/main.e36b3a78.js.map",
+    "239.d1a26b59.chunk.js.map": "/rating-form/static/js/239.d1a26b59.chunk.js.map",
+    "213.c43cbe63.chunk.js.map": "/rating-form/static/js/213.c43cbe63.chunk.js.map",
+    "732.a6b30de0.chunk.js.map": "/rating-form/static/js/732.a6b30de0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21a3bdd6.css",
+    "static/js/main.e36b3a78.js"
+  ]
+}
